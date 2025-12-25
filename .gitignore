@@ -1,4 +1,6 @@
 name.txt
+djangoenv
+django_server.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
