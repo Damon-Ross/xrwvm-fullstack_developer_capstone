@@ -124,3 +124,72 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact-card {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  display: flex;  
+  flex-direction: column;
+  margin: 2% auto;        
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  max-width: 900px;
+  background-color: white; 
+}
+.contact-row {
+  display: flex;  
+  flex-direction: row;    
+  padding: 40px;
+  align-items: center;
+  flex-wrap: nowrap;      
+}
+.contact-img {
+    width: 100%; 
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    object-fit: cover;
+    align-self: auto; 
+}
+
+.contact-icon {
+    width: 150px;
+    height: auto;
+    align-self: center;
+    background-color: transparent; 
+    box-shadow: none;              
+}
+
+.contact-column-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; 
+    padding-right: 20px;
+}
+
+.contact-divider {
+    width: 2px;
+    background-color: #000000; 
+    margin: 0 10px;
+}
+
+.contact-column-right {
+    flex: 1.5; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.contact-group {
+    margin-bottom: 20px;
+}
+
+.contact-header {
+    color: #4a69bd;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
