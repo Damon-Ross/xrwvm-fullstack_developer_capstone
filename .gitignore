@@ -1,6 +1,8 @@
 name.txt
 djangoenv
 django_server.txt
+loginuser
+logoutuser
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
