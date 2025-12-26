@@ -34,7 +34,6 @@ def initiate():
             )
         )
 
-    # Create CarModel instances with the corresponding CarMake instances
     car_model_data = [
         {
             "name": "Pathfinder",
