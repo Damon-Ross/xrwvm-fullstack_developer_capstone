@@ -1,3 +1,5 @@
 # coding-project-template
 
-fullstack_developer_capstone
+repository name: xrwvm-fullstack_developer_capstone
+
+name: fullstack_developer_capstone
